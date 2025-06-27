@@ -1,16 +1,37 @@
-# backbase_assessment
+# backbase_assignment
 
-A new Flutter project.
+✅ You can access the Debug APK and the recorded demo video from the following Google Drive link:
+    https://drive.google.com/drive/folders/1DTM2yMeeRJPixVY18WsHLt0xOmrKZJUZ?usp=sharing
+    
+    ============================================================================================================
 
-## Getting Started
+    
+✅ Features Implemented
+1. 🔍 Search Screen
+Search books by title via Open Library API
+Results with:
+Title, author, and thumbnail
+Shimmer loading placeholder while fetching
+Pull-to-refresh support
 
-This project is a starting point for a Flutter application.
+2. 📖 Details Screen
+Book details with title, author, and cover
+Smooth rotating animation for book cover
+Save book to SQLite for offline access
 
-A few resources to get you started if this is your first Flutter project:
+3. 📱 Device & Sensor Info Screen
+Integrated using Platform Channels:
+Device Info (model, OS version, etc.)
+Sensor Info (gyroscope)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4. 🏗️ Architecture
+Clean Architecture: data, domain, presentation layers
+Dependency injection: get_it
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. ⚙️ State Management
+BLoC: Events, States, and BLoC files
+
+6. ❗ Error Handling
+
+7. ✅ Unit Testing
+Use case (SearchBooks) tested with Mockito
